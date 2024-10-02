@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/wish.css">
+    <link rel="stylesheet" href="../styles/utils.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../src/wish.js"></script>
+
+    <title>&hearts; I WISH YOU &hearts;</title>
+  </head>
+
+  <body>
+    <!-- audio -->
+    <audio autoplay loop>
+      <source src="../audio/Oneul-Hazelnut-Cheesecake.mp3">
+    </audio>
+    
+    <section id="wishes" class="my-wish container">
+      <!-- Image Slides -->
+      <img class="my-wish__image-slide" alt="image" draggable="false">
+
+      <p class="my-wish__text"></p>
+      
+    </section>
+    
+    <section id="wishes2" class="slider container">
+      <!-- Next & Previous Buttons -->
+      <div class="button-container">
+        <button class="slider__button-prev btn" onclick="prev()">PREV</button>
+        <button class="slider__button-next btn" onclick="next()">NEXT</button>
+       </div>
+    </section>
+
+    <section id="nextPage" class="next-page container" style="display:none;">
+
+      <a href="./celebration.html">
+        <button id="next-page-button" class="next-button btn"
+         onclick="goTo">TEKANNNNN</button>
+      </a>
+      
+    </section>
+
+  </body>
+  
+</html>

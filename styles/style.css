@@ -1,0 +1,48 @@
+:root {
+
+  /* colors declaration */
+  --clr-indexPage-background: #fae1dd;
+  --clr-envelope: #f08080;
+  --clr-envelope-wrapper: #ffbcb2;
+  --clr-card-background: #eae2b7;
+  --clr-card-wish: #003049;
+  --clr-button: #003049;
+  --clr-button-text: #f8fafc;
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xL: 1.25rem;
+  --size-2xL: 1.5rem;
+  --size-3xL: 2.875rem;
+  --size-4xL: 2.25rem;
+  --size-5xL: 3rem;
+  --size-6xL: 3.75rem;
+  --size-7xL: 4.5rem;
+  --size-8xL: 6rem;
+  --size-9xL: 8rem;
+  --size-10xL: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: auto;
+  background-color: var(--clr-card-wish);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}

@@ -1,0 +1,121 @@
+/* .rancho-regular {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  background-color: #fae1dd;
+}
+
+.my-wish {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.my-wish__image-slide {
+  width: 15rem;
+  height: 15rem;
+  mix-blend-mode: multiply;
+}
+
+.my-wish__text {
+  /* text box settings */
+  user-select: none;
+  max-width: 60ch;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  /* font settings */
+  font-size: var(--size-lg);
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-align:center;
+  line-height: 1.5;
+  letter-spacing: 0.2ch;
+
+  /* border settings */
+  border-color: rgba(255, 255, 255, 0.65);
+  border-style: solid;
+  background-color: rgba(128, 167, 240, 0.85);
+  box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6); 
+}
+
+.slider {
+text-align: center;
+}
+
+.slider__button-prev {
+  margin-right: 1rem;
+}
+
+.slider__button-next {
+  margin-left: 1rem;
+}
+
+.next-page {
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 20rem;
+}
+
+.next-button {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--size-lg);
+  height: 5rem;
+  width: 12rem;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .my-wish__text {
+    /* font settings */
+    font-size: var(--size-2xL);
+  }
+  .next-button {
+    font-size: var(--size-2xL);
+  }
+}
+
+/* xL */
+@media (min-width: 1280px) {
+  .my-wish__text {
+    /* font settings */
+    font-size: var(--size-2xL);
+  }
+  .next-button {
+    font-size: var(--size-2xL);
+  }
+}
+
+/* 2xL */
+@media (min-width: 1536px) {
+  .my-wish__text {
+    /* font settings */
+    font-size: var(--size-2xL);
+  }
+  .next-button {
+    font-size: var(--size-2xL);
+  }
+}
